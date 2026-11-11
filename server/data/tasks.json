@@ -1,0 +1,132 @@
+[
+  {
+    "id": "TSK-101",
+    "title": "Implement Multi-Factor Authentication & OAuth2",
+    "description": "Design and implement zero-trust authentication flow integrating Google OAuth, GitHub, and TOTP authenticator app support with secure refresh token rotation.",
+    "category": "Development",
+    "priority": "Urgent",
+    "status": "In Progress",
+    "progress": 75,
+    "dueDate": "2026-11-18",
+    "assignedTo": "Sarah Jenkins",
+    "assigneeRole": "Lead Security Architect",
+    "assigneeAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+    "estimatedHours": 32,
+    "tags": ["Security", "OAuth", "React"],
+    "checklist": [
+      { "id": 1, "text": "Setup OAuth client credentials", "completed": true },
+      { "id": 2, "text": "Implement TOTP QR code generator", "completed": true },
+      { "id": 3, "text": "Write refresh token rotation middleware", "completed": true },
+      { "id": 4, "text": "Conduct penetration testing audit", "completed": false }
+    ],
+    "createdAt": "2026-11-01"
+  },
+  {
+    "id": "TSK-102",
+    "title": "Revamp Design System & Dark Mode Micro-Interactions",
+    "description": "Upgrade the Figma token library and React component primitives to support high-contrast dark theme, fluid typography, and micro-haptic CSS keyframe animations.",
+    "category": "Design",
+    "priority": "High",
+    "status": "In Review",
+    "progress": 90,
+    "dueDate": "2026-11-15",
+    "assignedTo": "Alex Rivera",
+    "assigneeRole": "Principal UI/UX Designer",
+    "assigneeAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+    "estimatedHours": 28,
+    "tags": ["UI/UX", "Figma", "CSS3"],
+    "checklist": [
+      { "id": 1, "text": "Audit color contrast ratios for WCAG AAA", "completed": true },
+      { "id": 2, "text": "Design toggle micro-interactions", "completed": true },
+      { "id": 3, "text": "Publish v2.4 component library spec", "completed": true },
+      { "id": 4, "text": "Conduct user feedback session", "completed": false }
+    ],
+    "createdAt": "2026-11-03"
+  },
+  {
+    "id": "TSK-103",
+    "title": "Database Index Optimization & Query Caching",
+    "description": "Analyze slow query logs, implement composite B-Tree indexes, and configure Redis caching layer to lower 99th percentile API latency under 45ms.",
+    "category": "DevOps",
+    "priority": "High",
+    "status": "Completed",
+    "progress": 100,
+    "dueDate": "2026-11-10",
+    "assignedTo": "Marcus Brody",
+    "assigneeRole": "Database Administrator",
+    "assigneeAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+    "estimatedHours": 20,
+    "tags": ["Database", "Redis", "Performance"],
+    "checklist": [
+      { "id": 1, "text": "Profile top 10 bottleneck queries", "completed": true },
+      { "id": 2, "text": "Add compound indexes on task filter columns", "completed": true },
+      { "id": 3, "text": "Deploy Redis cluster on staging", "completed": true },
+      { "id": 4, "text": "Verify 60% latency reduction in load tests", "completed": true }
+    ],
+    "createdAt": "2026-11-02"
+  },
+  {
+    "id": "TSK-104",
+    "title": "Q4 Product Launch Marketing Strategy & Campaign",
+    "description": "Coordinate cross-channel product launch campaign including email sequences, high-converting landing pages, interactive product tours, and developer webinars.",
+    "category": "Marketing",
+    "priority": "Medium",
+    "status": "In Progress",
+    "progress": 45,
+    "dueDate": "2026-11-25",
+    "assignedTo": "Elena Rostova",
+    "assigneeRole": "Product Marketing Manager",
+    "assigneeAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&auto=format&fit=crop&q=80",
+    "estimatedHours": 40,
+    "tags": ["Marketing", "Launch", "Copywriting"],
+    "checklist": [
+      { "id": 1, "text": "Draft announcement press release", "completed": true },
+      { "id": 2, "text": "Build interactive feature showcase page", "completed": true },
+      { "id": 3, "text": "Set up automated drip campaign triggers", "completed": false },
+      { "id": 4, "text": "Schedule live launch webinar", "completed": false }
+    ],
+    "createdAt": "2026-11-05"
+  },
+  {
+    "id": "TSK-105",
+    "title": "CI/CD Pipeline Hardening & Container Scanning",
+    "description": "Integrate Trivy container vulnerability scanner, automate SonarQube quality gate checks, and streamline parallel GitHub Actions workflow pipelines.",
+    "category": "DevOps",
+    "priority": "Urgent",
+    "status": "Pending",
+    "progress": 15,
+    "dueDate": "2026-11-22",
+    "assignedTo": "Devon Miles",
+    "assigneeRole": "DevOps & Cloud Engineer",
+    "assigneeAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
+    "estimatedHours": 16,
+    "tags": ["Docker", "CI/CD", "Security"],
+    "checklist": [
+      { "id": 1, "text": "Add Dockerfile linting step to PR checks", "completed": true },
+      { "id": 2, "text": "Configure secret scanning alerts", "completed": false },
+      { "id": 3, "text": "Reduce pipeline duration by caching node_modules", "completed": false }
+    ],
+    "createdAt": "2026-11-08"
+  },
+  {
+    "id": "TSK-106",
+    "title": "AI Summarization & Smart Task Categorization",
+    "description": "Prototype automated task title suggestion and smart label tagging leveraging localized embeddings and LLM API integration with streaming responses.",
+    "category": "Development",
+    "priority": "Medium",
+    "status": "Pending",
+    "progress": 0,
+    "dueDate": "2026-11-30",
+    "assignedTo": "Sarah Jenkins",
+    "assigneeRole": "Lead Security Architect",
+    "assigneeAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&auto=format&fit=crop&q=80",
+    "estimatedHours": 35,
+    "tags": ["AI", "LLM", "FullStack"],
+    "checklist": [
+      { "id": 1, "text": "Define task classification taxonomy", "completed": false },
+      { "id": 2, "text": "Benchmark prompt latency and token costs", "completed": false },
+      { "id": 3, "text": "Implement client-side markdown streaming", "completed": false }
+    ],
+    "createdAt": "2026-11-09"
+  }
+]
